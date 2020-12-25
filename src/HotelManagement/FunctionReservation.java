@@ -223,7 +223,6 @@ public void HallType()
         txtname = new javax.swing.JTextField();
         txtmobile = new javax.swing.JTextField();
         txtidnum = new javax.swing.JTextField();
-        txtdate = new com.toedter.calendar.JDateChooser();
         txthtype = new javax.swing.JComboBox<>();
         txtfeture = new javax.swing.JComboBox<>();
         txtcapacity = new javax.swing.JComboBox<>();
@@ -239,6 +238,7 @@ public void HallType()
         jLabel14 = new javax.swing.JLabel();
         txtftype = new javax.swing.JComboBox<>();
         jButton6 = new javax.swing.JButton();
+        txtdate = new com.toedter.calendar.JDateChooser();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -340,10 +340,6 @@ public void HallType()
         txtidnum.setBackground(new java.awt.Color(204, 204, 204));
         jPanel1.add(txtidnum);
         txtidnum.setBounds(220, 230, 190, 30);
-
-        txtdate.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel1.add(txtdate);
-        txtdate.setBounds(220, 290, 190, 30);
 
         txthtype.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " " }));
         jPanel1.add(txthtype);
@@ -459,6 +455,8 @@ public void HallType()
         });
         jPanel1.add(jButton6);
         jButton6.setBounds(930, 620, 90, 40);
+        jPanel1.add(txtdate);
+        txtdate.setBounds(220, 292, 180, 30);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/wedding function2.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
